@@ -3,9 +3,11 @@ CP1404 menus
 """
 
 name = input("Enter name: ")
-MENU = """(H)ello
+MENU = """
+(H)ello
 (G)oodbye
-(Q)uit"""
+(Q)uit
+"""
 
 print(MENU)
 choice = input(">>> ").upper()
